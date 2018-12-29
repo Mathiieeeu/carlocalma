@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('#video, #overlay').fadeIn('slow');
-    $('#video').html('<video width="1000" autoplay controls><source src="../video/TEASER.mov" type="video/mp4"><p>Your browser does not support the HTML5 Video element</p></video>');
+    $('#video').html('<iframe width="971" height="546" src="https://www.youtube.com/embed/AJjMQGoS84M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
 });
 
 $(document).on("click", function (e){
