@@ -212,3 +212,8 @@ $(document).ready(function($) {
 
 });
 
+
+window.onbeforeunload = function(){
+    sessionStorage.setItem('firstVisit', '0');
+}
+
