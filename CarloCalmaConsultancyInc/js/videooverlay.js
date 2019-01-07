@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
     
     sessionStorage.setItem('firstVisit', '0');
 
@@ -19,11 +19,9 @@ $(document).ready(function(){
     {
     }
     
-});
+});*/
 
-
-
-/*$(document).ready(function(){
+$(document).ready(function(){
     $('#video, #overlay').fadeIn('slow');
     $('#video').html('<div class="col-md-6"><img class="img-fluid" src="images/carlocalma_logostudies.png"></div>');
 });
