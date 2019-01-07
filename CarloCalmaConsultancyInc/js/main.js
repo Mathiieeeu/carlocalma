@@ -211,9 +211,3 @@ $(document).ready(function($) {
 	$('#appointment_time').timepicker();
 
 });
-
-
-window.onbeforeunload = function(){
-    sessionStorage.setItem('firstVisit', '0');
-}
-
