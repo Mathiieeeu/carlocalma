@@ -1,4 +1,10 @@
-sessionStorage.setItem('firstVisit', '0');
+if(!sessionStorage.getItem('firstVisit')){
+     sessionStorage.setItem('firstVisit', '0'); 
+}
+else
+{ 
+    sessionStorage.setItem('firstVisit', '1'); 
+}
 
 if(sessionStorage.getItem('firstVisit') === '0')
 { 
