@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('#video, #overlay').fadeIn('slow');
-    $('#video').html('<div class="col-md-20"><center><img class="img-fluid" src="images/carlocalma_logostudies.png"/></center></div>');
+    $('#video').html('<img class="img-fluid" width="1000" src="images/carlocalma_logostudies.png"/>');
 });
 
 $(document).on("click", function (e){
