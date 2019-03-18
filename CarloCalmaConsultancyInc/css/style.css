@@ -9191,6 +9191,7 @@ textarea.form-control {
 
   #container {
     position: relative;
+    top: 40%;
   }
 
   #overlay {
