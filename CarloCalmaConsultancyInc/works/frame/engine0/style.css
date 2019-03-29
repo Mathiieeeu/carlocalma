@@ -290,11 +290,11 @@
 	width: 0;
 	border-radius: 50%;
 	background: rgba(0, 0, 0, 0);
-	-webkit-box-shadow: inset 0 0 0 1px #ffffff;
-	box-shadow: inset 0 0 0 1px #ffffff;
+	-webkit-box-shadow: inset 0 0 0 1px #fff;
+	box-shadow: inset 0 0 0 1px #fff;
 }
 #wowslider-container0 .ws_bullets a.ws_selbull {
-	background: #ffffff;
+	background: #fff;
 	padding: 6px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -306,7 +306,7 @@
 	position:absolute;
 	font: 3.2em "ws-ctrl-bootstrap";
 	z-index:60;
-	color: #ffffff;
+	color: #fff;
 	overflow: hidden;
 	width: 15%;
 	height: 100%;
@@ -337,7 +337,7 @@
 	right: 0;
 	text-align: center;
 	vertical-align: middle;
-	color: #ffffff;
+	color: #fff;
 	text-shadow: 0 1px 2px rgba(0,0,0,0.6);
 }
 #wowslider-container0 a.ws_next:after{
@@ -359,7 +359,7 @@
 	left: 50%;
 	margin-top: -0.5em;
 	margin-left: -0.3125em;
-	color: #ffffff;
+	color: #fff;
 	opacity: 0.5;
 	text-shadow: 0 1px 2px rgba(0,0,0,0.6);
 	text-decoration: none;
@@ -393,7 +393,7 @@
 	height: 0; 
 	border-left: 7px solid transparent;
 	border-right: 7px solid transparent;
-	border-top: 7px solid #ffffff;
+	border-top: 7px solid #fff;
 
 	bottom:-10px;
 	margin-left:-7px;
@@ -402,7 +402,7 @@
 	position: absolute;
 	background: none;
 	font: 2.4em 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	color:#ffffff;
+	color:#fff;
 	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 	bottom: 50px;
 	top: auto;
@@ -439,10 +439,10 @@
 	display: inline-block;
 	border: 0;
 	line-height: 0;
-	margin:0.15%;
+	margin:0.13%;
 	text-indent:0;
-	padding: 0.05%;
-	width: 4.86315789473684%;
+	padding: 0.04%;
+	width: 4.20545454545455%;
 	max-width: 100px;
 }
 #wowslider-container0 .ws_thumbs a:hover{
@@ -467,19 +467,28 @@
 #wowslider-container0  .ws_thumbs div{
 	position:relative;
 	letter-spacing:-4px;
-	width:233.7em;
+	width:270.6em;
 	height: 100%;
 }#wowslider-container0 .ws_thumbs a.ws_selthumb{
-	outline-color: #ffffff;
+	outline-color: #fff;
 	outline-style: solid;
-	outline-width: 0.05%;
+	outline-width: 0.04%;
 	opacity:1;
 }
 
 #wowslider-container0 .ws_thumbs  a{
 	opacity:0.6;
-	background-color: #ffffff;
+	background-color: #fff;
 }
+
+#wowslider-container0 .ws_images > ul{
+	animation: wsBasic 88s infinite;
+	-moz-animation: wsBasic 88s infinite;
+	-webkit-animation: wsBasic 88s infinite;
+}
+@keyframes wsBasic{0%{left:-0%} 2.27%{left:-0%} 4.55%{left:-100%} 6.82%{left:-100%} 9.09%{left:-200%} 11.36%{left:-200%} 13.64%{left:-300%} 15.91%{left:-300%} 18.18%{left:-400%} 20.45%{left:-400%} 22.73%{left:-500%} 25%{left:-500%} 27.27%{left:-600%} 29.55%{left:-600%} 31.82%{left:-700%} 34.09%{left:-700%} 36.36%{left:-800%} 38.64%{left:-800%} 40.91%{left:-900%} 43.18%{left:-900%} 45.45%{left:-1000%} 47.73%{left:-1000%} 50%{left:-1100%} 52.27%{left:-1100%} 54.55%{left:-1200%} 56.82%{left:-1200%} 59.09%{left:-1300%} 61.36%{left:-1300%} 63.64%{left:-1400%} 65.91%{left:-1400%} 68.18%{left:-1500%} 70.45%{left:-1500%} 72.73%{left:-1600%} 75%{left:-1600%} 77.27%{left:-1700%} 79.55%{left:-1700%} 81.82%{left:-1800%} 84.09%{left:-1800%} 86.36%{left:-1900%} 88.64%{left:-1900%} 90.91%{left:-2000%} 93.18%{left:-2000%} 95.45%{left:-2100%} 97.73%{left:-2100%} }
+@-moz-keyframes wsBasic{0%{left:-0%} 2.27%{left:-0%} 4.55%{left:-100%} 6.82%{left:-100%} 9.09%{left:-200%} 11.36%{left:-200%} 13.64%{left:-300%} 15.91%{left:-300%} 18.18%{left:-400%} 20.45%{left:-400%} 22.73%{left:-500%} 25%{left:-500%} 27.27%{left:-600%} 29.55%{left:-600%} 31.82%{left:-700%} 34.09%{left:-700%} 36.36%{left:-800%} 38.64%{left:-800%} 40.91%{left:-900%} 43.18%{left:-900%} 45.45%{left:-1000%} 47.73%{left:-1000%} 50%{left:-1100%} 52.27%{left:-1100%} 54.55%{left:-1200%} 56.82%{left:-1200%} 59.09%{left:-1300%} 61.36%{left:-1300%} 63.64%{left:-1400%} 65.91%{left:-1400%} 68.18%{left:-1500%} 70.45%{left:-1500%} 72.73%{left:-1600%} 75%{left:-1600%} 77.27%{left:-1700%} 79.55%{left:-1700%} 81.82%{left:-1800%} 84.09%{left:-1800%} 86.36%{left:-1900%} 88.64%{left:-1900%} 90.91%{left:-2000%} 93.18%{left:-2000%} 95.45%{left:-2100%} 97.73%{left:-2100%} }
+@-webkit-keyframes wsBasic{0%{left:-0%} 2.27%{left:-0%} 4.55%{left:-100%} 6.82%{left:-100%} 9.09%{left:-200%} 11.36%{left:-200%} 13.64%{left:-300%} 15.91%{left:-300%} 18.18%{left:-400%} 20.45%{left:-400%} 22.73%{left:-500%} 25%{left:-500%} 27.27%{left:-600%} 29.55%{left:-600%} 31.82%{left:-700%} 34.09%{left:-700%} 36.36%{left:-800%} 38.64%{left:-800%} 40.91%{left:-900%} 43.18%{left:-900%} 45.45%{left:-1000%} 47.73%{left:-1000%} 50%{left:-1100%} 52.27%{left:-1100%} 54.55%{left:-1200%} 56.82%{left:-1200%} 59.09%{left:-1300%} 61.36%{left:-1300%} 63.64%{left:-1400%} 65.91%{left:-1400%} 68.18%{left:-1500%} 70.45%{left:-1500%} 72.73%{left:-1600%} 75%{left:-1600%} 77.27%{left:-1700%} 79.55%{left:-1700%} 81.82%{left:-1800%} 84.09%{left:-1800%} 86.36%{left:-1900%} 88.64%{left:-1900%} 90.91%{left:-2000%} 93.18%{left:-2000%} 95.45%{left:-2100%} 97.73%{left:-2100%} }
 
 #wowslider-container0 .ws_bullets  a img{
 	text-indent:0;
@@ -488,7 +497,7 @@
 	left:-50px;
 	visibility:hidden;
 	position:absolute;
-    border: 1px solid #ffffff;
+    border: 1px solid #fff;
 	max-width:none;
 }
 #wowslider-container0 .ws_bullets a:hover img{
@@ -505,7 +514,7 @@
 	overflow:hidden;
 	position:relative;
 	width:100px;
-	background-color:#ffffff;
+	background-color:#fff;
 }
 #wowslider-container0  .ws_bullets .ws_bulframe{
 	display:none;
@@ -514,7 +523,7 @@
 	overflow:visible;
 	position:absolute;
 	cursor:pointer;
-    border: 3px solid #ffffff;
+    border: 3px solid #fff;
 }#wowslider-container0 .ws_bulframe div div{
 	height: auto;
 }
